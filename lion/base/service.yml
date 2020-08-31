@@ -3,14 +3,14 @@ kind: Service
 metadata:
   creationTimestamp: null
   labels:
-    run: dao-2048
-  name: dao-2048
+    run: lion-88
+  name: lion-88
 spec:
   ports:
-  - port: 80
+  - port: 8080
     protocol: TCP
-    targetPort: 80
+    targetPort: 8080
   selector:
-    run: dao-2048
+    run: lion-88
 status:
   loadBalancer: {}

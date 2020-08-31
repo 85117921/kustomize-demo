@@ -3,22 +3,22 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    run: dao-2048
-  name: dao-2048
+    run: lion-88
+  name: lion-88
 spec:
   replicas: 1
   selector:
     matchLabels:
-      run: dao-2048
+      run: lion-88
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        run: dao-2048
+        run: lion-88
     spec:
       containers:
-      - image: daocloud.io/daocloud/dao-2048
-        name: dao-2048
+      - image: 85117921/myhello-app:v1.1.9
+        name: lion-88
         resources: {}
 status: {}
