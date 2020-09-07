@@ -6,4 +6,5 @@ patchesStrategicMerge:
 - resource_patch.yaml
 resources:
 - config.yaml
-namespace: 2048-prod
+#namespace: 2048-prod
+namespace: lion-namespace

@@ -4,4 +4,5 @@ patchesStrategicMerge:
 - nodeport_patch.yaml
 - env_patch.yaml
 - resource_patch.yaml
-namespace: 2048-test
+#namespace: 2048-test
+namespace: lion-namespace
